@@ -1,0 +1,18 @@
+[
+    {
+        "Usuario": "administrador1",
+        "Contraseña": "$2a$12$WYt8wP/S.szI9EdUCL.sAOZW7kJrdxxv5KzI0WA3f22v86/aKhxpa"
+    },
+    {
+        "Usuario": "administrador2",
+        "Contraseña": "$2a$12$1E4ueeK5wkF5CFThvv8EJuYzE08KdGtL6u7kO7n3b732opXPIwMh2"
+    },
+    {
+        "Usuario": "administrador3",
+        "Contraseña": "$2a$12$3VaDy8rIYZ0fNc/Q3WSjq.HUBWoFfTF5XKa9Z6shl/dkE0T4lCjFS"
+    },
+    {
+        "Usuario": "admin",
+        "Contraseña": "$2a$12$T.l5brpb9l5bk5r2vQ3dKeHUbhcFk8HKAOQaRch1HJ3h..0Zwa4H2"
+    }
+]

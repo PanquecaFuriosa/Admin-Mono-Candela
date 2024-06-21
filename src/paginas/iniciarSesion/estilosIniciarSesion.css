@@ -1,0 +1,43 @@
+.iniciarSesionBody {
+  background: #434C50;
+  background: linear-gradient(135deg, #434C50, #080E18);
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.custom-box {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+    padding: 4;
+    border-radius: 1em;
+    -webkit-box-shadow: 8px 5px 13px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 8px 5px 13px 0px rgba(0,0,0,0.32);
+    box-shadow: 8px 5px 13px 0px rgba(0,0,0,0.32);
+
+  }
+
+.ladoIzquierdo {
+  background-image: url(./imagenes/Rectangle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 60%;
+  border-radius: 0.8em 0 0 0.8em;
+}
+
+.ladoDerecho {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2em;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
