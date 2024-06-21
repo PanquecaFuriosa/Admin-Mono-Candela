@@ -1,47 +1,47 @@
-# Pagina web Motos Candela - Administrador
+# Motos Candela website - Administrator
 
-Este proyecto esta siendo desarrollado por los estudiantes de la Universidad Simon Bolivar:
-
+This project is developed by students from the Simón Bolívar University:
 -   Ana Shek
 -   Gabriela Panqueva
 -   Kenny Rojas
 -   Simon Puyosa
 
-## Tecnologias utilizadas
+## Used technology
 
-Para el desarrollo del FrontEnd se utiliza el lenguaje de programacion JavaScript y la libreria React.
+For the development of the FrontEnd, the JavaScript programming language and the React library are used.
 
-Para el desarrollo del BackEnd se utiliza el lenguaje de programacion JavaScript y el framework Express.
+For the development of the BackEnd, the JavaScript programming language and the Express framework are used.
 
-Para la persistencias de datos se utiliza una conexion a una base de datos NoSQL de Mongo.
+For data persistence, a connection to a Mongo NoSQL database is used.
 
-## Iniciar el proyecto
+## Start the project
 
-Para iniciar el proyecto de manera satisfactoria se necesitan dos terminales, una para ejecutar el frontEnd y otra para ejecutar el backEnd.
+To successfully start the project you need two terminals, one to run the front-end and one to run the back-end.
 
-### Iniciar el FrontEnd
+### Start Front-End
 
-Ubicados en la raiz del proyecto ejecutamos los siguientes comandos en orden:
+Located at the root of the project we execute the following commands in order:
 
 1. `npm install`
 2. `npm start`
 
-Esta secuencia de pasos instalara todas las dependencias necesarias e iniciara el frontEnd del proyecto en el puerto 3000.
+This sequence of steps will install all the necessary dependencies and start the frontend of the project on port 3000.
 
-### Iniciar el BackEnd
+### Start Back-End
 
-Para poder iniciar el backend, primero debemos ubicarnos en la carpeta backend
-usando el comando `cd./backend`, luego tenemos que crear un archivo ".env" el cual debe tener las siguientes lineas:
+In order to start the backend, we must first go to the backend folder
 
-MONGO_URL = [URI a la base de datos]
+using the `cd./backend` command, then we have to create a ".env" file which must have the following lines:
 
-MONGO_DB = [Nombre de la base de datos]
+MONGO_URL = [URL to database]
 
-SECRET = [Contraseña para el token JWT]
+MONGO_DB = [Database Name]
 
-Habiendo creado este archivo solo resta ejecutar los siguientes comandos:
+SECRET = [Password for JWT token]
+
+After creating this file, all you need to do is execute the following commands:
 
 1. `npm install`
 2. `npx nodemon app`
 
-Esta secuencia de pasos instalara todas las dependencias necesarias, configurara la conexion a la base de datos, la codificacion de las cookies e iniciara el backEnd del proyecto en el puerto 5000.
+This sequence of steps will install all the necessary dependencies, configure the database connection, cookie encoding and will start the backend of the project on port 5000.
